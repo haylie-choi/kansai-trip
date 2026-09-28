@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="희미새 · 희와와의 2026년 10월 30일~11월 2일 교토 · 오사카 여행 정보">
+<meta property="og:title" content="오사카 · 교토 3박4일">
+<meta property="og:description" content="항공 · 숙소 · 일정 · 맛집 24곳 · 교통 · 비용">
+<meta property="og:type" content="website">
+<style>
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0}
+  img{max-width:100%}
+  [hidden]{display:none!important}
+</style>
+<title>오사카·교토 3박4일</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    color-scheme: light;
+    --bg:#E9ECF1;
+    --paper:#FDFDFE;
+    --paper-2:#F3F5F9;
+    --ink:#141922;
+    --ink-2:#4E5869;
+    --ink-3:#7C8697;
+    --line:#D3D9E2;
+    --line-soft:#E2E7EE;
+    --ai:#1C3C6E;
+    --ai-soft:#E4EAF4;
+    --on-accent:#FFFFFF;
+    --kaki:#B8512A;
+    --kaki-soft:#F6E5DD;
+    --matcha:#4E6B49;
+    --matcha-soft:#E4EDE2;
+    --shadow: 0 1px 2px rgba(20,25,34,.05), 0 6px 20px -12px rgba(20,25,34,.18);
+
+    --f-disp:"Shippori Mincho", "Noto Serif KR", Georgia, serif;
+    --f-body:"Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    --f-mono:"Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --bg:#0F1218;
+      --paper:#181D26;
+      --paper-2:#1F2530;
+      --ink:#E7EBF1;
+      --ink-2:#A3ADBC;
+      --ink-3:#7C8697;
+      --line:#2B323E;
+      --line-soft:#232A35;
+      --ai:#8FB2E6;
+      --ai-soft:#1D2A3E;
+      --on-accent:#0F1218;
+      --kaki:#E08A63;
+      --kaki-soft:#33231C;
+      --matcha:#93B48C;
+      --matcha-soft:#1E2A1D;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -14px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --bg:#0F1218;
+    --paper:#181D26;
+    --paper-2:#1F2530;
+    --ink:#E7EBF1;
+    --ink-2:#A3ADBC;
+    --ink-3:#7C8697;
+    --line:#2B323E;
+    --line-soft:#232A35;
+    --ai:#8FB2E6;
+    --ai-soft:#1D2A3E;
+    --on-accent:#0F1218;
+    --kaki:#E08A63;
+    --kaki-soft:#33231C;
+    --matcha:#93B48C;
+    --matcha-soft:#1E2A1D;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -14px rgba(0,0,0,.7);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--f-body); font-weight:400; font-size:15px; line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:900px; margin:0 auto; padding-inline:18px; padding-block:0 64px}
+  a{color:inherit}
+  h1,h2,h3,h4{text-wrap:balance; margin:0}
+  .ja{font-family:var(--f-disp); font-weight:500}
+  .num{font-family:var(--f-mono); font-variant-numeric:tabular-nums}
+
+  nav{
+    position:sticky; top:env(safe-area-inset-top, 0px); z-index:50;
+    background:color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter:saturate(1.4) blur(10px);
+    border-bottom:1px solid var(--line-soft);
+  }
+  .navin{max-width:900px; margin:0 auto; display:flex; gap:2px; overflow-x:auto; padding:8px 12px; scrollbar-width:none}
+  .navin::-webkit-scrollbar{display:none}
+  .navin a{
+    flex:0 0 auto; text-decoration:none; color:var(--ink-2); font-size:13px; font-weight:500;
+    padding:6px 11px; border-radius:999px; white-space:nowrap;
+  }
+  .navin a:hover{background:var(--paper); color:var(--ink)}
+  .navin a:focus-visible{outline:2px solid var(--ai); outline-offset:2px}
+
+  header.hero{padding-block:44px 34px; border-bottom:1px solid var(--line)}
+  .kanji{
+    font-family:var(--f-disp); font-weight:700; font-size:clamp(38px,10.5vw,66px); line-height:1.08;
+    letter-spacing:.05em; color:var(--ink);
+  }
+  .kanji span{color:var(--kaki)}
+  .hero .sub{
+    margin:14px 0 0; font-size:12.5px; letter-spacing:.18em;
+    color:var(--ink-3); font-weight:500;
+  }
+  .herometa{display:flex; flex-wrap:wrap; gap:10px; margin-top:22px}
+  .hm{
+    background:var(--paper); border:1px solid var(--line-soft); border-radius:10px;
+    padding:11px 14px; min-width:0; flex:1 1 140px; margin:0;
+  }
+  .hm dt{font-size:11px; letter-spacing:.1em; color:var(--ink-3); font-weight:500; margin-bottom:3px}
+  .hm dd{margin:0; font-size:15px; font-weight:500}
+  #dday{color:var(--kaki); font-weight:700}
+
+  section{padding-block:38px 6px; scroll-margin-top:76px}
+  .shead{display:flex; align-items:baseline; gap:12px; margin-bottom:18px; flex-wrap:wrap}
+  .shead h2{font-family:var(--f-disp); font-weight:700; font-size:23px; letter-spacing:.02em}
+  .shead .jp{font-size:12px; color:var(--ink-3); letter-spacing:.14em}
+  .lead{color:var(--ink-2); font-size:14px; margin:-6px 0 18px; max-width:62ch}
+
+  .card{
+    background:var(--paper); border:1px solid var(--line-soft); border-radius:12px;
+    padding:16px 17px; box-shadow:var(--shadow);
+  }
+  .grid2{display:grid; grid-template-columns:repeat(auto-fit,minmax(265px,1fr)); gap:12px}
+
+  .fl{display:flex; align-items:center; gap:14px; margin:6px 0 10px}
+  .fl .pt{flex:0 0 auto}
+  .fl .pt .t{font-family:var(--f-mono); font-size:25px; font-weight:500; letter-spacing:-.02em}
+  .fl .pt .c{font-size:11px; letter-spacing:.11em; color:var(--ink-3); margin-top:1px}
+  .fl .mid{flex:1 1 auto; text-align:center; color:var(--ink-3); font-size:11px; letter-spacing:.05em}
+  .fl .mid hr{border:0; border-top:1px solid var(--line); margin:5px 0 4px}
+
+  .tagrow{display:flex; flex-wrap:wrap; gap:6px; margin-top:10px}
+  .tag{
+    font-size:11.5px; padding:3px 9px; border-radius:999px; font-weight:500;
+    background:var(--paper-2); color:var(--ink-2); border:1px solid var(--line-soft);
+  }
+  .tag.ai{background:var(--ai-soft); color:var(--ai); border-color:transparent}
+  .tag.kaki{background:var(--kaki-soft); color:var(--kaki); border-color:transparent}
+  .tag.matcha{background:var(--matcha-soft); color:var(--matcha); border-color:transparent}
+
+  .ctitle{font-weight:700; font-size:16px; margin-bottom:2px}
+  .csub{font-size:12.5px; color:var(--ink-3); margin-bottom:10px}
+  .kv{display:grid; grid-template-columns:auto 1fr; gap:4px 14px; font-size:13.5px; margin:4px 0 0}
+  .kv dt{color:var(--ink-3); white-space:nowrap}
+  .kv dd{margin:0}
+  .fineprint{font-size:12.5px; color:var(--ink-2); margin:12px 0 0; padding-top:11px; border-top:1px dashed var(--line); line-height:1.6}
+  .maplink{
+    display:inline-flex; align-items:center; gap:5px; margin-top:12px; font-size:13px;
+    color:var(--ai); text-decoration:none; font-weight:500;
+    border-bottom:1px solid color-mix(in srgb, var(--ai) 45%, transparent); padding-bottom:1px;
+  }
+
+  .day{display:grid; grid-template-columns:78px 1fr; gap:0 16px}
+  .daymark{position:relative; padding-top:18px}
+  .daymark .dn{font-family:var(--f-disp); font-weight:700; font-size:19px; line-height:1}
+  .daymark .dd{font-size:11.5px; color:var(--ink-3); margin-top:5px; font-family:var(--f-mono)}
+  .daybody{padding:14px 0 18px; border-bottom:1px solid var(--line-soft); min-width:0}
+  .day.bday .daymark .dn{color:var(--kaki)}
+  .day.bday .daymark .dd{color:var(--kaki)}
+  .bdaycard{
+    border:1px solid color-mix(in srgb, var(--kaki) 35%, transparent);
+    background:linear-gradient(180deg, var(--kaki-soft), var(--paper) 62%);
+  }
+  .bdaycard .ctitle{color:var(--kaki)}
+  .stepline{display:grid; grid-template-columns:auto 1fr; gap:8px 12px; font-size:13.5px; margin-top:10px; align-items:start}
+  .stepline dt{font-family:var(--f-mono); font-size:12px; color:var(--kaki); font-weight:500; padding-top:2px; white-space:nowrap}
+  .stepline dd{margin:0}
+  .stepline dd small{display:block; color:var(--ink-3); font-size:12.5px}
+  .day:last-child .daybody{border-bottom:0}
+  .dtitle{font-size:15px; font-weight:700}
+  ol.steps{list-style:none; margin:10px 0 0; padding:0; display:flex; flex-direction:column; gap:9px}
+  ol.steps li{display:grid; grid-template-columns:58px 1fr; gap:12px; font-size:14px; align-items:start}
+  ol.steps li .tm{font-family:var(--f-mono); font-size:12.5px; color:var(--ai); padding-top:2px; font-weight:500}
+  ol.steps li .tx strong{font-weight:500}
+  ol.steps li .tx small{display:block; color:var(--ink-3); font-size:12.5px; line-height:1.55}
+
+  .usjbox{margin-top:13px; background:var(--kaki-soft); border-radius:10px; padding:12px 14px}
+  .usjbox h4{margin:0 0 9px; font-size:12.5px; font-weight:700; color:var(--kaki); letter-spacing:.04em}
+  .usjbox ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:6px}
+  .usjbox li{display:grid; grid-template-columns:100px 1fr; gap:10px; font-size:13px}
+  .usjbox li b{font-family:var(--f-mono); font-weight:500; font-size:12.5px; color:var(--kaki)}
+  .usjbox p{margin:11px 0 0; font-size:12.5px; color:var(--ink-2); line-height:1.6}
+
+  .filters{display:flex; flex-wrap:wrap; gap:7px; margin-bottom:16px; align-items:stretch}
+  .chip{
+    font:inherit; font-size:13px; font-weight:500; cursor:pointer;
+    background:var(--paper); color:var(--ink-2); border:1px solid var(--line);
+    padding:6px 13px; border-radius:999px; transition:border-color .13s, background .13s, color .13s;
+  }
+  .chip:hover{border-color:var(--ink-3)}
+  .chip[aria-pressed="true"]{background:var(--ai); border-color:var(--ai); color:var(--on-accent)}
+  .chip:focus-visible{outline:2px solid var(--kaki); outline-offset:2px}
+  .sep{width:1px; background:var(--line); margin:3px 4px; flex:0 0 1px}
+
+  .rlist{display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:12px}
+  .r{display:flex; flex-direction:column}
+  .r .rname{font-weight:700; font-size:15.5px; line-height:1.35}
+  .r .rja{font-family:var(--f-disp); font-size:13px; color:var(--ink-2); margin-top:3px}
+  .r .rmeta{font-size:12px; color:var(--ink-3); margin-top:6px}
+  .r dl.rkv{display:grid; grid-template-columns:auto 1fr; gap:4px 12px; font-size:13px; margin:11px 0 0; padding-top:11px; border-top:1px dashed var(--line)}
+  .r dl.rkv dt{color:var(--ink-3); white-space:nowrap}
+  .r dl.rkv dd{margin:0}
+  .r .price{font-family:var(--f-mono); font-weight:500}
+  .r .note{font-size:12.5px; color:var(--ink-2); line-height:1.6; margin:9px 0 0; padding-top:9px; border-top:1px dashed var(--line)}
+  .r .ratings{display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:10px; font-size:12.5px}
+  .r .ratings span{display:inline-flex; align-items:baseline; gap:5px; color:var(--ink-3)}
+  .r .ratings b{font-family:var(--f-mono); font-weight:500; font-size:14px; color:var(--ink)}
+  .r .ratings i{font-style:normal; font-size:11.5px}
+  .tag.real{background:var(--matcha); color:var(--paper); border-color:transparent}
+  .r .foot{margin-top:auto; padding-top:13px; display:flex; gap:14px; flex-wrap:wrap}
+  .scorenote{font-size:12.5px; color:var(--ink-2); line-height:1.65; margin:0}
+  .r .foot a{font-size:12.5px; color:var(--ai); text-decoration:none; font-weight:500; border-bottom:1px solid color-mix(in srgb, var(--ai) 40%, transparent); padding-bottom:1px}
+  .empty{color:var(--ink-3); font-size:14px; padding:24px 0}
+
+  .tw{overflow-x:auto; border:1px solid var(--line-soft); border-radius:12px; background:var(--paper); box-shadow:var(--shadow)}
+  table{border-collapse:collapse; width:100%; min-width:520px; font-size:13.5px}
+  th,td{text-align:left; padding:10px 14px; border-bottom:1px solid var(--line-soft); vertical-align:top}
+  thead th{font-size:11.5px; letter-spacing:.08em; color:var(--ink-3); font-weight:500; background:var(--paper-2)}
+  tbody tr:last-child td{border-bottom:0}
+  td.n{font-family:var(--f-mono); font-variant-numeric:tabular-nums; white-space:nowrap}
+  td.dim{color:var(--ink-3)}
+  tfoot td{font-weight:700; background:var(--paper-2); border-top:1px solid var(--line); border-bottom:0}
+
+  .callout{
+    border-left:3px solid var(--kaki); background:var(--kaki-soft); border-radius:0 10px 10px 0;
+    padding:13px 16px; font-size:13.5px; margin-top:14px; line-height:1.65;
+  }
+  .callout b{color:var(--kaki)}
+  .callout.ok{border-left-color:var(--matcha); background:var(--matcha-soft)}
+  .callout.ok b{color:var(--matcha)}
+
+  ul.plain{margin:10px 0 0; padding-left:18px; font-size:13.5px; line-height:1.7; color:var(--ink-2)}
+  ul.plain li{margin-bottom:4px}
+  ul.plain b{color:var(--ink); font-weight:500}
+  p.aside{font-size:12.5px; color:var(--ink-3); margin:10px 0 0}
+
+  ul.todo{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:11px}
+  ul.todo li{display:grid; grid-template-columns:24px 1fr; gap:10px; font-size:13.5px; align-items:start; line-height:1.6}
+  ul.todo li .d{font-family:var(--f-mono); font-size:11px; color:var(--kaki); padding-top:3px; font-weight:500}
+  ul.todo li small{display:block; color:var(--ink-3); font-size:12.5px}
+
+  footer{margin-top:44px; padding-top:20px; border-top:1px solid var(--line); font-size:12px; color:var(--ink-3); line-height:1.75}
+
+  @media (max-width:520px){
+    .day{grid-template-columns:1fr}
+    .daymark{padding-top:16px; display:flex; align-items:baseline; gap:10px}
+    .daymark .dd{margin-top:0}
+    ol.steps li{grid-template-columns:52px 1fr; gap:10px}
+    .usjbox li{grid-template-columns:1fr; gap:0}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none !important; animation:none !important}}
+</style>
+
+</head>
+<body>
+<nav>
+  <div class="navin">
+    <a href="#flight">항공</a>
+    <a href="#stay">숙소</a>
+    <a href="#plan">일정</a>
+    <a href="#bday">생일</a>
+    <a href="#shop">쇼핑</a>
+    <a href="#food">맛집</a>
+    <a href="#move">교통</a>
+    <a href="#cost">비용</a>
+    <a href="#todo">할 일</a>
+    <a href="#tips">알아둘 것</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="kanji">京都 · <span>大阪</span></div>
+    <p class="sub">2026.10.30 FRI — 11.02 MON</p>
+    <div class="herometa">
+      <dl class="hm"><dt>기간</dt><dd>3박 4일</dd></dl>
+      <dl class="hm"><dt>일행</dt><dd>희미새 &amp; 희와와</dd></dl>
+      <dl class="hm"><dt>남은 날짜</dt><dd id="dday">—</dd></dl>
+      <dl class="hm"><dt>10월 31일</dt><dd style="color:var(--kaki)">희미새 생일 🎂</dd></dl>
+    </div>
+  </header>
+
+  <section id="flight">
+    <div class="shead"><h2>항공편</h2><span class="jp ja">航空券</span></div>
+    <div class="grid2">
+
+      <div class="card">
+        <div class="ctitle">가는 편 · 10월 30일 (금)</div>
+        <div class="csub">티웨이항공 <b class="num">TW301</b> · 인천 ICN → 간사이 KIX</div>
+        <div class="fl">
+          <div class="pt"><div class="t">07:55</div><div class="c">ICN · T1</div></div>
+          <div class="mid">약 2시간<hr>직항</div>
+          <div class="pt"><div class="t">09:55</div><div class="c">KIX · T1</div></div>
+        </div>
+        <div class="tagrow">
+          <span class="tag matcha">수하물 포함</span>
+          <span class="tag ai">간사이 T1 도착</span>
+          <span class="tag">예약번호 입력 필요</span>
+        </div>
+        <p class="fineprint">티웨이는 간사이공항 <b>제1터미널</b>을 씁니다. 철도역이 T1에 있어서 셔틀을 탈 필요가 없습니다.</p>
+      </div>
+
+      <div class="card">
+        <div class="ctitle">오는 편 · 11월 2일 (월)</div>
+        <div class="csub">티웨이항공 <b class="num">TW302</b> · 간사이 KIX → 인천 ICN</div>
+        <div class="fl">
+          <div class="pt"><div class="t">11:15</div><div class="c">KIX · T1</div></div>
+          <div class="mid">약 1시간 55분<hr>직항</div>
+          <div class="pt"><div class="t">13:10</div><div class="c">ICN · 예상</div></div>
+        </div>
+        <div class="tagrow">
+          <span class="tag matcha">수하물 포함</span>
+          <span class="tag kaki">09:15까지 공항 도착</span>
+          <span class="tag">예약번호 입력 필요</span>
+        </div>
+        <p class="fineprint">숙소 체크아웃이 10:00인데 비행기는 11:15입니다. <b>07:10 전후에는 숙소를 나서야</b> 하니 전날 밤에 짐을 다 싸두세요.</p>
+      </div>
+
+    </div>
+    <div class="callout ok">
+      <b>터미널 걱정은 없습니다.</b> 철도역(JR·난카이)은 간사이공항 T1에만 있는데 티웨이도 T1을 씁니다. T1↔T2 셔틀 환승이 없으니 왕복 모두 이동시간을 그대로 잡으면 됩니다.
+    </div>
+  </section>
+
+  <section id="stay">
+    <div class="shead"><h2>숙소</h2><span class="jp ja">宿泊</span></div>
+    <div class="grid2">
+
+      <div class="card">
+        <div class="tagrow" style="margin:0 0 10px"><span class="tag ai">1박차 · 10/30 → 10/31</span></div>
+        <div class="ctitle">미야코 호텔 교토하치조</div>
+        <div class="csub ja">都ホテル 京都八条</div>
+        <dl class="kv">
+          <dt>주소</dt><dd>京都市南区西九条院町 17</dd>
+          <dt>위치</dt><dd>JR 교토역 하치조구치 바로 앞</dd>
+          <dt>체크인</dt><dd class="dim" style="color:var(--ink-3)">시각 확인 필요</dd>
+          <dt>예약번호</dt><dd style="color:var(--ink-3)">입력 필요</dd>
+        </dl>
+        <a class="maplink" href="https://maps.app.goo.gl/ELSvPLqsxTw6sjBu6" target="_blank" rel="noopener">구글맵에서 열기 →</a>
+        <div class="callout ok">
+          <b>공항 리무진이 이 호텔 앞에 섭니다.</b> 간사이공항 리무진 교토선 종점이 교토역 하치조구치라, 캐리어를 끌고 역 구내를 통과할 필요가 없습니다.
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="tagrow" style="margin:0 0 10px"><span class="tag ai">2·3박차 · 10/31 → 11/02</span></div>
+        <div class="ctitle">토에이붓산 20</div>
+        <div class="csub ja">東栄物産20 / TOEI BUSSAN Building 20</div>
+        <dl class="kv">
+          <dt>주소</dt><dd>大阪市浪速区元町 1-4-11</dd>
+          <dt>형태</dt><dd>민슈쿠 · 객실 내 주방</dd>
+          <dt>위치</dt><dd>난바 · OCAT 도보권</dd>
+          <dt>체크인</dt><dd class="num">16:00</dd>
+          <dt>체크아웃</dt><dd class="num">10:00</dd>
+          <dt>예약번호</dt><dd style="color:var(--ink-3)">입력 필요</dd>
+        </dl>
+        <a class="maplink" href="https://maps.app.goo.gl/gKwGGf9RbCDFwtxa7" target="_blank" rel="noopener">구글맵에서 열기 →</a>
+        <div class="callout">
+          <b>체크인이 16:00입니다.</b> 10/31 오전에 교토에서 넘어오면 짐 맡길 곳이 필요합니다. OCAT 1층 안내 카운터(08:00~21:00)에서 보관되고, 난바역 코인락커는 ¥300~800입니다.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="plan">
+    <div class="shead"><h2>일정</h2><span class="jp ja">旅程</span></div>
+    <p class="lead">시각은 이동 소요시간 기준 추정입니다. 식사는 아래 맛집 섹션에서 골라 넣으면 됩니다.</p>
+
+    <div class="card" style="padding-inline:20px">
+
+      <div class="day">
+        <div class="daymark"><div class="dn">1일차</div><div class="dd">10.30 금</div></div>
+        <div class="daybody">
+          <div class="dtitle">인천 → 간사이 → 교토</div>
+          <ol class="steps">
+            <li><span class="tm">07:55</span><span class="tx"><strong>인천 출발 · TW301</strong><small>늦어도 05:55까지 공항 도착</small></span></li>
+            <li><span class="tm">09:55</span><span class="tx"><strong>간사이공항 T1 도착</strong><small>입국심사·수하물 45~75분</small></span></li>
+            <li><span class="tm">11:00</span><span class="tx"><strong>교토로 이동</strong><small>하루카 특급 80분 또는 리무진버스 85분 — 교통 섹션 참고</small></span></li>
+            <li><span class="tm">12:40</span><span class="tx"><strong>교토역 도착 · 호텔에 짐</strong><small>하치조구치에서 도보 0분</small></span></li>
+            <li><span class="tm">13:30</span><span class="tx"><strong>교토 관광</strong><small>단풍철 금요일이라 시버스는 정체가 심합니다. 전철 루트를 권합니다</small></span></li>
+            <li><span class="tm">18:30</span><span class="tx"><strong>저녁</strong><small>호텔 도보 5분에 노미호다이 되는 이자카야(京もん)가 있습니다</small></span></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="day bday">
+        <div class="daymark"><div class="dn">2일차</div><div class="dd">10.31 토</div></div>
+        <div class="daybody">
+          <div class="dtitle">오사카성 · 백화점 · <span style="color:var(--kaki)">희미새 생일</span> 🎂</div>
+          <ol class="steps">
+            <li><span class="tm">09:30</span><span class="tx"><strong>교토 체크아웃 → 난바로 이동</strong><small>JR 신쾌속 + 미도스지선 · ¥820 · 약 50분</small></span></li>
+            <li><span class="tm">10:30</span><span class="tx"><strong>숙소 또는 OCAT에 짐 맡기기</strong><small>체크인은 16:00. OCAT 코인락커 05:00~23:30, ¥400~1,000</small></span></li>
+            <li><span class="tm">11:00</span><span class="tx"><strong>오사카성으로 이동</strong><small>메트로 중앙선 혼마치 환승 → 다니마치욘초메 or 모리노미야 · ¥240 · 15~20분</small></span></li>
+            <li><span class="tm">11:30</span><span class="tx"><strong>오사카성 천수각 · 공원</strong><small>입장료 ¥1,200 · 09:00~18:00(최종입장 17:30) · 한국어 오디오가이드 무료</small></span></li>
+            <li><span class="tm">14:00</span><span class="tx"><strong>다이마루 신사이바시 쇼핑</strong><small>메트로 중앙선 → 혼마치 → 미도스지선 신사이바시 · ¥240</small></span></li>
+            <li><span class="tm">16:00</span><span class="tx"><strong>난바 다카시마야 · 생일 케이크</strong><small>난바역 직결, 20:00까지. B1 데파치카에서 홀케이크</small></span></li>
+            <li><span class="tm">17:00</span><span class="tx"><strong>숙소 체크인 · 케이크 넣어두기</strong></span></li>
+            <li><span class="tm">19:00</span><span class="tx"><strong>생일 저녁</strong><small>야키니쿠 기탄 기념일 코스 ¥9,900 — 샴페인 한 잔 포함, 전석 개인룸</small></span></li>
+          </ol>
+          <div class="callout">
+            <b>10월 31일은 핼러윈, 그것도 토요일입니다.</b> 저녁 8시 이후 도톤보리 에비스바시(글리코 간판 앞)는 경찰이 다리를 봉쇄할 만큼 붐빕니다. 글리코 간판 사진은 <b>해 지기 전에</b> 찍어두고, 저녁엔 에비스바시를 건너지 않는 동선으로 숙소에 돌아오세요. 난바역 지하 통로를 쓰면 인파를 거의 피할 수 있습니다.
+          </div>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="daymark"><div class="dn">3일차</div><div class="dd">11.01 일</div></div>
+        <div class="daybody">
+          <div class="dtitle">유니버설 스튜디오 재팬</div>
+          <ol class="steps">
+            <li><span class="tm">이동</span><span class="tx"><strong>오사카난바 → 니시쿠조 → 유니버설시티</strong><small>한신난바선 + JR 유메사키선 · 편도 ¥400 · 20~27분. 난바발 직통은 없습니다</small></span></li>
+            <li><span class="tm">종일</span><span class="tx"><strong>USJ · 익스프레스 패스 5</strong></span></li>
+            <li><span class="tm">저녁</span><span class="tx"><strong>시티워크에서 식사 후 난바 복귀</strong><small>폐장 직후 1~2시간은 식당도 전철도 극혼잡</small></span></li>
+          </ol>
+          <div class="usjbox">
+            <h4>티켓에 찍힌 확약 시간</h4>
+            <ul>
+              <li><b>13:00–14:00</b><span>슈퍼 닌텐도 월드 에어리어 입장</span></li>
+              <li><b>13:00–13:30</b><span>마리오 카트: 쿠파의 도전장</span></li>
+              <li><b>13:30–14:00</b><span>마리오 카트: 쿠파의 도전장</span></li>
+            </ul>
+            <p>시간대가 정해져 있으니 <b>12:40까지는 닌텐도 월드 입구</b>에 닿도록 오전 동선을 짜세요. 11/1은 일요일 + 핼러윈 직후라 혼잡이 심합니다. 당일 대기시간과 정리권은 USJ 공식 앱에서 확인하세요.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="daymark"><div class="dn">4일차</div><div class="dd">11.02 월</div></div>
+        <div class="daybody">
+          <div class="dtitle">귀국</div>
+          <ol class="steps">
+            <li><span class="tm">07:10</span><span class="tx"><strong>숙소 출발</strong><small>전날 밤에 짐 다 싸두기</small></span></li>
+            <li><span class="tm">07:40</span><span class="tx"><strong>난카이 난바역 공항급행</strong><small>¥970 · 43분 · 환승 없음</small></span></li>
+            <li><span class="tm">08:23</span><span class="tx"><strong>간사이공항 T1 도착</strong><small>여유 50분~1시간 10분</small></span></li>
+            <li><span class="tm">11:15</span><span class="tx"><strong>인천행 출발 · TW302</strong></span></li>
+          </ol>
+          <div class="callout">
+            <b>숙소가 OCAT 근처라 리무진버스도 좋은 선택입니다.</b> OCAT 07:10 출발 → T1 07:58 도착. 짐이 많으면 환승 없는 버스가 편합니다. ¥1,400 · 예약 불필요.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="bday">
+    <div class="shead"><h2>10/31 생일</h2><span class="jp ja">誕生日</span></div>
+    <p class="lead">희미새 생일이 여행 둘째 날입니다. 하루를 어떻게 마무리할지 미리 잡아두면 당일에 헤맬 일이 없습니다.</p>
+
+    <div class="grid2">
+
+      <div class="card bdaycard">
+        <div class="ctitle">생일 저녁 — 야키니쿠 기탄</div>
+        <div class="csub ja">焼肉 きたん 法善寺</div>
+        <p style="font-size:13.5px;margin:0 0 10px;line-height:1.65">이 일정에 가장 잘 맞는 선택입니다. <b>기념일 코스 11품 ¥9,900</b>에 샴페인 한 잔이 포함되고, <b>전석이 완전 개인룸</b>이라 핼러윈 인파와 완전히 분리됩니다. 호젠지요코초 골목 안이라 숙소에서 도보 10분.</p>
+        <dl class="stepline">
+          <dt>예약</dt><dd>타베로그 영문·한국어 페이지에서 전화 없이 가능<small>지금 바로 잡아두세요. 토요일 + 핼러윈입니다</small></dd>
+          <dt>1인</dt><dd class="num">약 ¥10,400 (서비스료 5% 포함)</dd>
+          <dt>대안</dt><dd>스시 아마토 우라난바 ¥8,300 — 카운터 15석, 서비스료 10%</dd>
+        </dl>
+      </div>
+
+      <div class="card bdaycard">
+        <div class="ctitle">케이크</div>
+        <div class="csub">난바 다카시마야 B1 데파치카 · 10:00~20:00</div>
+        <p style="font-size:13.5px;margin:0 0 10px;line-height:1.65">난바역에서 바로 연결돼 숙소로 가는 길에 들르기 좋습니다. 홀케이크는 대략 <b>¥2,300~3,300</b> 선.</p>
+        <ul class="plain" style="margin-top:0">
+          <li><b>앙리 샤르팡티에</b> — 쇼트케이크 ¥2,322~, 포토케이크 ¥3,240~</li>
+          <li><b>비타메르</b> — ¥2,400~ (벨기에 브랜드)</li>
+          <li><b>아 라 캉파뉴</b> — 타르트 ¥2,300~3,500</li>
+        </ul>
+        <div class="callout" style="margin-top:12px">
+          <b>미리 전화로 예약하세요.</b> 쇼케이스 완제품을 당일 살 수는 있지만 10/31은 토요일에 핼러윈이라 원하는 종류가 없을 수 있습니다. B1에 <b>냉장 로커(1회 ¥100)</b>가 있어서 저녁 먹는 동안 맡겨둘 수도 있습니다.
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="ctitle" style="font-size:15px">야경을 더하고 싶다면</div>
+        <ul class="plain">
+          <li><b>아베노 하루카스 300</b> — 난바에서 미도스지선 8분(¥240). 당일권 ¥2,200, 웹 전날 구매 ¥1,980. 09:00~22:00. 전망대 + 디너 코스 <b>2인 ¥11,000 기념일 플랜</b>이 따로 있습니다</li>
+          <li><b>우메다 스카이빌딩 공중정원</b> — ¥2,000, 09:30~22:30(최종입장 22:00). 옥외 원형 전망대가 핵심. 예약 불필요</li>
+          <li><b>HEP FIVE 관람차</b> — 우메다, 약 ¥1,000, 11:00~23:00. 한 바퀴 15분, 가볍게 둘만의 시간</li>
+        </ul>
+        <p class="aside">톤보리 리버크루즈(¥2,000, 11:00~21:00 매시 00·30분)도 좋지만 <b>핼러윈 밤에는 승선장 접근 자체가 어려울 수 있습니다.</b> 탄다면 17~18시대로.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="shop">
+    <div class="shead"><h2>쇼핑 · 백화점</h2><span class="jp ja">買い物</span></div>
+
+    <div class="callout">
+      <b>10월 31일은 일본 면세제도가 바뀌기 직전 마지막 날입니다.</b> 11월 1일 판매분부터 매장에서 세금을 빼주는 방식이 없어지고, 세금을 낸 뒤 출국할 때 세관 확인을 거쳐 환급받는 방식으로 바뀝니다. 쇼핑을 <b>10/31에 몰아서</b> 하는 쪽이 훨씬 간편합니다.
+    </div>
+
+    <div class="grid2" style="margin-top:14px">
+
+      <div class="card">
+        <div class="ctitle">다이마루 신사이바시점</div>
+        <div class="csub ja">大丸心斎橋店 · 10:00~20:00</div>
+        <dl class="kv">
+          <dt>위치</dt><dd>미도스지선 신사이바시역</dd>
+          <dt>면세</dt><dd>본관 9F 해외고객센터(10~20시)<br>남관 4F 면세카운터(12~20시)</dd>
+          <dt>특징</dt><dd>남관 3·4F 화장품, 1·3F 명품 부티크, 남관 1·2F 빅카메라</dd>
+        </dl>
+        <p class="fineprint">본관 1F 안내소에서 <b>여권을 보여주면 5% 할인 쿠폰</b>을 줍니다. 면세와 중복 적용됩니다.</p>
+      </div>
+
+      <div class="card">
+        <div class="ctitle">다카시마야 오사카점</div>
+        <div class="csub ja">高島屋大阪店 · 10:00~20:00</div>
+        <dl class="kv">
+          <dt>위치</dt><dd>난카이 난바역 직결 · 숙소 도보권</dd>
+          <dt>면세</dt><dd>7F 면세 카운터 (7층은 19:00까지)</dd>
+          <dt>특징</dt><dd>B1 데파치카(케이크·반찬), 1F 화장품, 7~9F 난바 다이닝 메종</dd>
+        </dl>
+        <p class="fineprint">7F에서 짐을 맡아줍니다. 3시간 ¥500, <b>당일 ¥3,000 이상 구매 영수증이 있으면 3시간 무료</b>. 캐리어는 1인 1개.</p>
+      </div>
+
+      <div class="card">
+        <div class="ctitle">한큐 우메다 본점</div>
+        <div class="csub ja">阪急うめだ本店 · 10:00~20:00</div>
+        <dl class="kv">
+          <dt>위치</dt><dd>JR 오사카역 도보 3분</dd>
+          <dt>면세</dt><dd>B1 해외고객카운터 · 1F 셀프 면세기(14~20시)</dd>
+          <dt>특징</dt><dd>5·6F 럭셔리 부티크, 2·3F 화장품, B1 데파치카</dd>
+        </dl>
+        <p class="fineprint">여권을 보여주면 <b>5% 게스트 쿠폰</b>(7일간 여러 번 사용 가능). 다만 난바에서 미도스지선 8분 거리라 이번 동선에서는 우선순위가 낮습니다.</p>
+      </div>
+
+      <div class="card">
+        <div class="ctitle" style="font-size:15px">면세 받는 법</div>
+        <ul class="plain">
+          <li>같은 백화점에서 <b>같은 날 세금 별도 ¥5,000 이상</b></li>
+          <li>준비물 — <b>여권 원본</b>(입국 스탬프 필요, 사본·사진 불가), 당일 영수증, 구매한 물건, 결제한 카드</li>
+          <li>백화점은 수수료 1.55%를 떼고 환급해서 실환급률은 약 8.45%</li>
+          <li>식품·화장품 같은 소모품은 <b>일본에서 포장을 뜯으면 안 됩니다</b></li>
+          <li>출국할 때 세관에 구매품과 여권을 보여줘야 합니다</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="food">
+    <div class="shead"><h2>맛집 후보</h2><span class="jp ja">飲食店</span></div>
+    <p class="lead">24곳 전부 <b>타베로그 점수와 구글 평점을 직접 확인</b>해서 담았습니다. 한국 블로그에만 유명한 곳은 걸러냈습니다.</p>
+
+    <div class="card" style="margin-bottom:16px">
+      <div class="ctitle" style="font-size:15px">점수 보는 법</div>
+      <p class="scorenote" style="margin-top:8px">
+        <b>타베로그</b>는 일본 현지 기준입니다. <b class="num">3.5</b> 넘으면 상위권, <b class="num">3.0</b>대 초반은 평범, 관광지 체인은 대개 3.0~3.2입니다. 3.8을 넘는 집은 전국에 얼마 없습니다.<br>
+        <b>구글</b>은 한국·중국 관광객 리뷰가 많으면 쉽게 4.0을 넘습니다. 그래서 <b>구글은 높은데 타베로그가 낮으면</b> 관광객만 가는 집이라는 신호입니다.
+      </p>
+      <div class="callout" style="margin-top:12px">
+        <b>이 기준으로 두 곳을 뺐습니다.</b> 텐푸라 천월(天ぷら 天月)은 구글 4.9인데 타베로그 3.24로 차이가 1.66이었고, 결정적으로 가게가 타베로그 소개문에 구글 평점을 홍보 문구로 쓰고 있었습니다. 쓰루하시 후게츠 USJ점은 타베로그 3.08에 구글조차 3.7이었습니다. 각각 대체 후보를 넣어뒀습니다.
+      </div>
+    </div>
+
+    <div class="filters" role="group" aria-label="맛집 필터">
+      <button class="chip" id="f-all" data-f="area" data-v="all" aria-pressed="true">전체</button>
+      <button class="chip" id="f-kyoto" data-f="area" data-v="교토" aria-pressed="false">교토</button>
+      <button class="chip" id="f-osaka" data-f="area" data-v="오사카" aria-pressed="false">오사카</button>
+      <button class="chip" id="f-usj" data-f="area" data-v="USJ" aria-pressed="false">USJ</button>
+      <span class="sep" aria-hidden="true"></span>
+      <button class="chip" id="f-real" data-f="real" data-v="1" aria-pressed="false">★ 찐맛집만</button>
+      <button class="chip" id="f-nomi" data-f="nomi" data-v="1" aria-pressed="false">노미호다이</button>
+      <button class="chip" id="f-resv" data-f="resv" data-v="1" aria-pressed="false">예약 필요</button>
+    </div>
+
+    <div class="rlist" id="rlist"></div>
+    <p class="empty" id="rempty" hidden>조건에 맞는 가게가 없습니다.</p>
+
+    <p class="aside" style="margin-top:16px">
+      타베로그 점수·리뷰 수는 2026년 9월 28일에 각 가게 페이지에서 직접 확인했고, 구글 평점은 주소·전화번호로 지점을 대조해 맞춘 값입니다. 점수는 계속 바뀝니다.<br>
+      미쉐린 빕구르망이라고 알려진 몇 곳(와나카·후쿠타로·미즈노)은 미쉐린 공식 사이트 현재 목록에서 확인되지 않아 표기하지 않았습니다.
+    </p>
+    <div class="callout">
+      <b>흡연 때문에 뺀 곳.</b> 기온 오반자이 오리베(祇園おりべ)와 로바타 호무라(炎 難波店)는 전석 흡연 가능이라 제외했습니다.
+    </div>
+  </section>
+
+  <section id="move">
+    <div class="shead"><h2>교통 · 패스</h2><span class="jp ja">交通</span></div>
+    <p class="lead">결론부터 말하면 <b>ICOCA 2장 + 하루카 할인 편도권 2장</b>이면 충분합니다. 주유패스와 간사이 레일웨이 패스는 이 일정에 맞지 않습니다.</p>
+
+    <div class="tw">
+      <table>
+        <thead><tr><th>구간</th><th>수단</th><th>1인 요금</th><th>소요</th></tr></thead>
+        <tbody>
+          <tr><td>10/30 간사이공항 → 교토</td><td><b>하루카 할인 편도권</b><br><span style="color:var(--ink-3);font-size:12.5px">출국 전 온라인 구매 필수</span></td><td class="n">¥2,200</td><td class="n">80분</td></tr>
+          <tr><td>〃</td><td>리무진버스 (하치조구치)<br><span style="color:var(--ink-3);font-size:12.5px">호텔 앞 하차 · 예약 불필요</span></td><td class="n">¥2,800</td><td class="n">85분</td></tr>
+          <tr><td>〃</td><td>하루카 자유석 정가</td><td class="n">¥3,060</td><td class="n">80분</td></tr>
+          <tr><td>10/31 교토역 → 난바</td><td>JR 신쾌속 + 미도스지선</td><td class="n">¥820</td><td class="n">50분</td></tr>
+          <tr><td>11/1 난바 ↔ 유니버설시티</td><td>한신난바선 → 니시쿠조 → JR 유메사키선</td><td class="n">¥400 편도</td><td class="n">20~27분</td></tr>
+          <tr><td>11/2 난바 → 간사이공항</td><td>난카이 공항급행</td><td class="n">¥970</td><td class="n">43분</td></tr>
+          <tr><td>〃</td><td>난카이 라피트 (디지털 티켓)</td><td class="n">¥1,410</td><td class="n">35분</td></tr>
+          <tr><td>〃</td><td>OCAT 리무진버스</td><td class="n">¥1,400</td><td class="n">48분</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid2" style="margin-top:14px">
+      <div class="card">
+        <div class="ctitle" style="font-size:15px">사야 할 것</div>
+        <ul class="plain">
+          <li><b>하루카 할인 편도권 ¥2,200 × 2</b> — 여권(단기체재) 필요. 일본에 도착한 뒤에는 살 수 없으니 <b>출국 전에</b> JR서일본 온라인 예약이나 여행사 교환권으로 구매하세요. 탑승 1개월 전부터 예약 가능.</li>
+          <li><b>ICOCA 실물카드 ¥2,000 × 2</b> — 보증금 ¥500 포함, 잔액 ¥1,500. 간사이공항역 JR 티켓오피스(05:30~23:00)에서 구매. 귀국할 때 보증금 환급 가능.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ctitle" style="font-size:15px">사지 않아도 되는 것</div>
+        <ul class="plain">
+          <li><b>오사카 주유패스</b> (1일 ¥3,500) — 11/1은 USJ에 하루를 쓰는데 USJ 입장도, 니시쿠조→유니버설시티 JR 구간도 포함이 아닙니다. 10/31은 실질 반나절이라 본전이 안 납니다.</li>
+          <li><b>간사이 레일웨이 패스 라이트</b> — 2026년 개편으로 유효기간이 10/1·10/2에 끝납니다. 이 날짜에는 아예 쓸 수 없습니다.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout">
+      <b>신용카드 터치 결제는 절반만 됩니다.</b> 오사카메트로·한신·난카이·긴테츠는 되지만 JR서일본은 전 노선 불가입니다. 이번 일정에 JR 구간(교토→오사카, 니시쿠조→유니버설시티)이 있으니 ICOCA는 있어야 합니다.
+    </div>
+  </section>
+
+  <section id="cost">
+    <div class="shead"><h2>비용</h2><span class="jp ja">費用</span></div>
+    <p class="lead">정산은 따로 하지 않고 대략만 잡아둡니다. 항공과 숙소가 각 60만원씩이라 두 사람 부담이 거의 맞습니다.</p>
+
+    <div class="tw">
+      <table>
+        <thead><tr><th>항목</th><th>결제</th><th>2인 합계</th><th>1인</th></tr></thead>
+        <tbody>
+          <tr><td>항공권</td><td><b>희와와</b> 결제 완료</td><td class="n">₩600,000</td><td class="n">₩300,000</td></tr>
+          <tr><td>숙소 3박</td><td><b>희미새</b> 결제 완료</td><td class="n">₩600,000</td><td class="n">₩300,000</td></tr>
+          <tr><td>USJ 티켓 + 익스프레스 패스 5</td><td class="dim">결제자 입력 필요</td><td class="n">약 ₩560,000</td><td class="n">약 ₩280,000</td></tr>
+          <tr><td>교통비</td><td>현지</td><td class="n">약 ¥11,400~13,000</td><td class="n">약 ¥5,700~6,500</td></tr>
+          <tr><td>오사카성 천수각</td><td>현지</td><td class="n">¥2,400</td><td class="n">¥1,200</td></tr>
+          <tr><td>생일 저녁 + 케이크</td><td>현지</td><td class="n">약 ¥23,700</td><td class="n">약 ¥11,850</td></tr>
+          <tr><td>그 외 식비 (추정)</td><td>현지</td><td class="n">약 ¥45,000~60,000</td><td class="n">약 ¥22,500~30,000</td></tr>
+          <tr><td>쇼핑 · 기타</td><td class="dim">입력 필요</td><td class="n dim">—</td><td class="n dim">—</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td>출발 전 선결제 합계</td><td>항공 · 숙소 · USJ</td><td class="n">약 ₩1,760,000</td><td class="n">약 ₩880,000</td></tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <p class="aside">엔화 금액은 환율에 따라 원화 부담이 달라집니다. 식비는 1인 하루 ¥8,000~10,000 기준의 추정치이고, USJ 금액은 2인 합계로 잡았습니다.</p>
+  </section>
+
+  <section id="todo">
+    <div class="shead"><h2>지금 해야 할 일</h2><span class="jp ja">準備</span></div>
+    <div class="card">
+      <ul class="todo">
+        <li><span class="d">01</span><span><b>京もん 京都駅八条口店</b> 10/30 저녁 예약 — 단풍철 금요일이라 예약 없이는 어렵습니다. 2인 노미호다이 코스 ¥7,000<small>핫페퍼 온라인 또는 075-634-8858</small></span></li>
+        <li><span class="d">02</span><span><b>焼肉きたん 法善寺</b> 10/31 19:00 예약 — 희와와 생일 저녁. 기념일 코스 ¥9,900, 전석 개인룸<small>타베로그 영문·한국어 페이지에서 전화 없이 가능</small></span></li>
+        <li><span class="d">03</span><span><b>생일 케이크 예약</b> — 난바 다카시마야 B1. 토요일 + 핼러윈이라 당일에는 원하는 게 없을 수 있습니다</span></li>
+        <li><span class="d">04</span><span><b>하루카 할인 편도권 2매</b> 온라인 구매 — 탑승 1개월 전부터. 일본 도착 후에는 살 수 없습니다<small>JR서일본 온라인 예약 · 해외발행 신용카드 필요</small></span></li>
+        <li><span class="d">05</span><span><b>10월 1일 11:00(일본시간) 알람</b> — USJ 파크사이드 그릴 / SAIDO 우선안내 예약 오픈<small>11/1은 일요일이라 오픈 직후 마감될 수 있습니다</small></span></li>
+        <li><span class="d">06</span><span><b>오사카성 천수각 웹티켓 2매</b> — 토요일 오전엔 매표 대기가 30~45분입니다<small>공식 온라인 판매 있음. 사두면 줄을 건너뜁니다</small></span></li>
+        <li><span class="d">07</span><span><b>숙소 2곳 예약번호 정리</b> — 체크인할 때 바로 보여줄 수 있게</span></li>
+        <li><span class="d">08</span><span><b>10/31 점심 또는 11/1 저녁 한 곳 더 예약</b> — 酒肴哲(우라난바 오뎅, 3.70) 또는 源兵衛(스테이크+노미호다이, 3.58). 둘 다 타베로그 넷예약으로 전화 없이 됩니다<small>酒肴哲은 일요일 휴무라 10/31에만 가능합니다</small></span></li>
+        <li><span class="d">09</span><span><b>USJ 11/1 영업시간 재확인</b> — 방문 직전 usj.co.jp에서 폐장시각 확인</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="tips">
+    <div class="shead"><h2>알아둘 것</h2><span class="jp ja">メモ</span></div>
+    <div class="grid2">
+
+      <div class="card">
+        <div class="ctitle" style="font-size:15px">현금이 꼭 필요한 곳</div>
+        <ul class="plain">
+          <li><b>八重勝</b> 신세카이 쿠시카츠 — 현금만</li>
+          <li><b>多平</b> 난바 야키니쿠 — 현금만</li>
+          <li><b>新福菜館 本店</b> 교토 라멘 — 현금만</li>
+          <li><b>岡北</b> 교토 우동 — 현금만</li>
+          <li><b>おかめ</b> 호젠지요코초 오뎅 — 현금만</li>
+          <li><b>貝賊</b> 우라난바 조개 — 카드 불가, 현금 또는 PayPay</li>
+          <li><b>わなか</b> 타코야키 — 현금 또는 PayPay만</li>
+          <li><b>美津の</b> 오코노미야키 — ¥3,000 미만은 현금</li>
+        </ul>
+        <p class="aside">찐맛집일수록 현금만 받는 경우가 많습니다. 1인 ¥20,000 정도는 현금으로 들고 다니세요.</p>
+      </div>
+
+      <div class="card">
+        <div class="ctitle" style="font-size:15px">웨이팅을 각오할 곳</div>
+        <ul class="plain">
+          <li>예약 자체가 안 되는 곳 — <b>わなか · 福太郎 · 美津の · 八重勝 · 第一旭 · 岡北</b></li>
+          <li><b>多平</b>는 주말·공휴일 예약을 안 받습니다. <b>だるま</b>도 평일 18시까지만 예약 가능</li>
+          <li><b>福太郎</b>는 도착하면 먼저 <b>이름을 적어야</b> 합니다. 모르고 그냥 서 있으면 순서가 안 옵니다</li>
+          <li>주말 피크 <b>30~60분</b>, 야에카츠는 <b>1~2시간</b>까지 갑니다</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="ctitle" style="font-size:15px">짐 맡기기</div>
+        <ul class="plain">
+          <li><b>교토역 하치조구치</b> — 코인락커 약 1,500개, ¥400~700, 교통IC 결제 가능</li>
+          <li><b>OCAT 1층 안내 카운터</b> — 08:00~21:00 수하물 보관</li>
+          <li><b>난바역 일대</b> — 코인락커 ¥300~800, 피크엔 빈 곳 찾기가 어렵습니다</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="ctitle" style="font-size:15px">10월 말 간사이 날씨</div>
+        <ul class="plain">
+          <li>교토·오사카 모두 낮 18~21℃ / 밤 10~13℃ 정도의 늦가을</li>
+          <li>아침저녁으로 쌀쌀합니다. <b>가벼운 겉옷은 필수</b></li>
+          <li>교토 단풍은 11월 중순이 절정이라 이 시기엔 시작 무렵입니다</li>
+        </ul>
+        <p class="aside">평년 기준입니다. 출발 전 주간예보를 확인하세요.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    가격 · 영업시간 · 교통 요금은 2026년 9월 28일 조사 기준이며 변동될 수 있습니다. 예약 전에 각 가게와 교통사 공식 페이지에서 최종 확인하세요.<br>
+    숙소 예약번호와 항공 예약번호는 아직 비어 있습니다.
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  try{
+    var start = new Date(2026, 9, 30);
+    var now = new Date();
+    var t0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var diff = Math.round((start - t0) / 86400000);
+    var el = document.getElementById('dday');
+    if(diff > 0) el.textContent = 'D-' + diff;
+    else if(diff === 0) el.textContent = 'D-DAY';
+    else if(diff >= -3) el.textContent = '여행 중';
+    else el.textContent = '다녀옴';
+  }catch(e){}
+
+  var R = [
+    {ko:"혼케 다이이치아사히 다카바시 본점", ja:"本家第一旭 たかばし本店", area:"교토", place:"교토역 도보 8~10분", cat:"로컬푸드", real:true,
+     tab:"3.74", tabN:"6,944", goo:"4.0", gooN:"9,245",
+     award:"라멘 WEST 백명점 2019~2025 (7년 연속)",
+     resv:"불가", resvNote:"줄서기만", nomi:"",
+     menu:"교토식 라멘 · 차슈 특제라멘 · 교자", price:"¥1,000~2,000",
+     note:"이번 목록에서 타베로그 점수 2위. 일본어 리뷰가 6,944건으로 현지 기반이 압도적입니다. 06:00~익일 01:00, 목요일 휴무라 10/30 금요일은 영업합니다. 늦게 도착해도 안전한 선택. 31석이라 만석이면 합석하고 피크엔 30분~1시간 대기. 카드·QR 모두 가능."},
+
+    {ko:"신푸쿠사이칸 본점", ja:"新福菜館 本店", area:"교토", place:"교토역 도보 7분", cat:"로컬푸드", real:true,
+     tab:"3.59", tabN:"4,315", goo:"4.0", gooN:"4,584",
+     award:"라멘 WEST 백명점 2020·2021",
+     resv:"불가", resvNote:"", nomi:"",
+     menu:"검은 국물 중화소바(並) 약 ¥700 · 야키메시", price:"¥700~1,300",
+     note:"1938년 창업. 다이이치아사히 바로 옆집이라 둘 중 줄이 짧은 쪽으로 가면 됩니다. 09:00~20:00(L.O. 19:30), 수요일 휴무 — 20시 마감이라 늦으면 못 갑니다. 현금만 받습니다. 전석 금연, 영어 메뉴판 있음."},
+
+    {ko:"교우동 기소바 오카키타", ja:"京うどん 生蕎麦 岡北", area:"교토", place:"오카자키 · 히가시야마역 도보 10분", cat:"한 끼", real:true,
+     tab:"3.69", tabN:"1,653", goo:"", gooN:"",
+     award:"우동 WEST 백명점 2024 · 전국 우동 백명점 2017~2020",
+     resv:"불가", resvNote:"워크인, 대기 15분~", nomi:"",
+     menu:"교우동(키츠네) · 새우 두 마리 텐푸라 우동 · 텐푸라 세이로 소바", price:"¥1,000~2,000",
+     note:"백명점 5회 선정에 리뷰 1,653건인데 1인 2천엔이 안 됩니다. 교토 우동의 기준점 같은 집. 11:00~19:00, 화·수 휴무 — 19시 마감이라 이른 저녁으로만 가능합니다. 현금만 받습니다. 전석 금연, 36석. 교토역에서는 좀 떨어져 있어 버스나 지하철을 타야 합니다."},
+
+    {ko:"오료리 메나미", ja:"御料理 めなみ", area:"교토", place:"기야마치산조 · 게이한 산조역 도보 3분", cat:"한 끼", real:true,
+     tab:"3.52", tabN:"337", goo:"", gooN:"",
+     award:"1939년 창업 · 오반자이 스타일의 원조격",
+     resv:"권장", resvNote:"전화만 가능 (080-9308-5905, 10:00~)", nomi:"",
+     menu:"오반자이 모듬 · 미부나와 유부 조림 · 생유바 하루마키", price:"¥6,000~10,000 (+자릿세 ¥550)",
+     note:"카운터에 큰 그릇들이 늘어선 오반자이집의 그 장면이 여기서 시작됐습니다. 87년 된 노포이고 계절 교토 식재 중심이라 관광용 오반자이집과는 결이 다릅니다. 15:00~21:30, 수요일 휴무 — 10/30 영업. 전석 금연, 46석. 카드·PayPay 가능. 해외에서 전화 예약이 어려우면 일찍 가서 워크인을 노리세요."},
+
+    {ko:"마치슈료리 쿄몬 교토역 하치조구치점", ja:"町衆料理 京もん 八条口店", area:"교토", place:"교토역 하치조구치 도보 5분", cat:"이자카야", real:false,
+     tab:"3.39", tabN:"93", goo:"4.4", gooN:"323",
+     award:"",
+     resv:"필수", resvNote:"핫페퍼 온라인 · 075-634-8858", nomi:"¥7,000 코스 · 1.5시간 · 2인부터",
+     menu:"오리만두 ¥880 · 오반자이 5종 ¥1,580 · 두유나베 ¥1,280", price:"¥7,000~8,000",
+     note:"점수는 3.39로 최상위권은 아니지만, 이 목록에서 <b>호텔 도보 5분에 2인 노미호다이가 되는 유일한 곳</b>입니다. 도착 첫날 짐 풀고 바로 갈 수 있다는 게 실질 가치. 매일 17:00~23:00, 부정기휴무. 전석 금연, 개실 있음, 영어 메뉴판 있음. 제철 아닌 메뉴는 편차가 있다는 지적이 있으니 계절 메뉴 위주로 시키세요."},
+
+    {ko:"슈코 테츠", ja:"酒肴哲", area:"오사카", place:"우라난바 · 긴테츠 닛폰바시역 도보 8분", cat:"이자카야", real:true,
+     tab:"3.70", tabN:"317", goo:"", gooN:"",
+     award:"이자카야 WEST 백명점 2024·2025",
+     resv:"권장", resvNote:"타베로그 넷예약 — 전화 불필요", nomi:"",
+     menu:"다이콘 오뎅(가쓰오·다시마+닭육수) · 두꺼운 베이컨&크림치즈 오뎅 · 명물 도테야키 · 자가제 로스트비프", price:"¥6,000~9,000 (오마카세 ¥6,600)",
+     note:"이번 목록 오사카 최고점(3.70). 도톤보리 관광 오뎅집이 아니라 우라난바 뒷골목의 15석 카운터입니다. 이자카야 백명점 2년 연속. 17:00~23:00(최종입점 22:00), <b>일요일 휴무라 11/1은 안 됩니다</b> — 10/31 저녁에 쓰세요. 전면 금연, 카드 가능(전자머니·QR 불가). 혼잡 시 2시간제."},
+
+    {ko:"타헤이", ja:"多平", area:"오사카", place:"난카이 난바역 5번 출구 바로", cat:"한 끼", real:true,
+     tab:"3.68", tabN:"1,173", goo:"", gooN:"",
+     award:"야키니쿠 WEST 백명점 2020·2021·2024·2025",
+     resv:"불가", resvNote:"주말·공휴일 예약 불가 — 워크인만", nomi:"",
+     menu:"하라미 · 텟찬 · 죠미노 · 센마이", price:"¥6,000~8,000",
+     note:"1957년부터 난바역 앞을 지킨 연기 자욱한 동네 야키니쿠. 백명점 4회에 리뷰 1,173건인데도 여전히 예약을 안 받고 줄을 세웁니다. 11:30~15:00 / 16:00~21:00, 수요일 휴무 — 3일 다 영업. <b>현금만</b> 받습니다. 전석 금연, 23석. 관광객용 야키니쿠와 완전히 다른 경험을 원하면 여기."},
+
+    {ko:"야키토리 오렌", ja:"焼鳥 御廉", area:"오사카", place:"난바역 도보 1분", cat:"이자카야", real:true,
+     tab:"3.63", tabN:"119", goo:"4.4", gooN:"47",
+     award:"2024년 6월 오픈한 신생점 — 2년 만에 3.63",
+     resv:"필수", resvNote:"타베로그 넷예약 · 080-3781-3173", nomi:"¥6,000 코스 · 2시간 · 2~10인",
+     menu:"미야자키 지도리 돌판구이 · 야키토리 세트 ¥2,500~3,500 · 닭 가마솥밥", price:"약 ¥6,500 (+차지 ¥500)",
+     note:"오픈 2년 만에 3.63은 매우 강한 수치입니다. 14석뿐이라 예약해도 자리가 없는 경우가 많으니 서두르세요. 18:00~23:00, 부정기휴무(인스타 확인). 전석 금연. 셀프 프리드링크 방식이고 오사카 명물 믹스주스도 무제한. 리뷰 기반 실지출이 공식 표기보다 높게 잡히니 ¥7,000 정도로 잡아두세요."},
+
+    {ko:"겐베에 난바점", ja:"源兵衛 なんば店", area:"오사카", place:"난카이 난바역 도보 2분", cat:"한 끼", real:true,
+     tab:"3.58", tabN:"450", goo:"", gooN:"",
+     award:"스테이크·철판구이 WEST 백명점 2025 · 타베로그 핫레스토랑 2025",
+     resv:"권장", resvNote:"타베로그 넷예약 — 전화 불필요", nomi:"코스 ¥6,500~ 전부 노미호다이 포함 (2층 셀프)",
+     menu:"카타마리니쿠 스테이크 400~600g(숯불 4단 굽기) · 오이타규 L본 스테이크 · 조미료 10종", price:"¥6,500~10,500 (코스)",
+     note:"백명점 스테이크집인데 <b>코스 전부에 노미호다이가 붙고 넷예약까지 됩니다.</b> 이 조건을 다 만족하는 집이 드뭅니다. 15:00~23:30 거의 연중무휴. 금연(흡연실 별도), 65석. 22시 이후 입점 시 심야이용료 5%. 노미호다이 시간·최소인원 표기가 없으니 예약할 때 확인하세요."},
+
+    {ko:"카이조쿠", ja:"貝賊", area:"오사카", place:"우라난바 · 오사카난바역 도보 1분", cat:"이자카야", real:true,
+     tab:"3.58", tabN:"288", goo:"", gooN:"",
+     award:"",
+     resv:"권장", resvNote:"전화 06-6631-2555 (15~20시가 잘 연결됨)", nomi:"¥4,980 야칸 코스 7품 + 2시간",
+     menu:"히로시마산 굴 야칸야키(주전자 찜) · 카메노테(거북손) · 호타루이카 철판구이", price:"¥4,000~6,000 (+차지 ¥380)",
+     note:"전국에서 모은 조개를 주전자에 쪄서 내는 집. 난바역 1분인데 관광객용 체인 분위기가 전혀 없고 리뷰가 죄다 조개 퀄리티 얘기입니다. 15:00~23:00 연중무휴라 11/1 일요일도 영업. 전석 금연, 28석. <b>카드 불가, PayPay 또는 현금</b>. 노미호다이 2인 가능 여부는 예약할 때 확인하세요."},
+
+    {ko:"오카메", ja:"おかめ", area:"오사카", place:"호젠지요코초 입구 · 난바역 도보 5분", cat:"한 끼", real:true,
+     tab:"3.56", tabN:"162", goo:"", gooN:"",
+     award:"",
+     resv:"권장", resvNote:"전화만 (06-6211-0761), 19시까지만 접수", nomi:"",
+     menu:"오뎅(무) · 도테야키 · 미즈나스", price:"¥3,000~5,000",
+     note:"호젠지요코초 초입의 10석짜리 옛날식 오뎅집. 26회, 4회씩 재방문한 현지 리뷰어들이 점수를 떠받치고 있습니다. 16:30~21:00, 월요일 휴무에 <b>매월 첫째·셋째 일요일도 휴무 — 11/1이 첫째 일요일이라 안 열 가능성이 큽니다.</b> 현금만. 전석 금연, 카운터 10석. 16:30 오픈 직전에 가는 게 가장 확실합니다."},
+
+    {ko:"사카나야 히데조 난바점", ja:"魚屋ひでぞう 難波店", area:"오사카", place:"우라난바 · 난바역 도보 4분", cat:"이자카야", real:true,
+     tab:"3.52", tabN:"443", goo:"4.0", gooN:"386",
+     award:"",
+     resv:"권장", resvNote:"전화 06-6648-8839 (넷예약 제한적)", nomi:"¥5,000 오마카세 코스 · 2시간",
+     menu:"당일 사시미 모듬 · 생선 조림 · 계절 생선 소금구이", price:"약 ¥5,400 (+오토시 ¥350)",
+     note:"동부시장 중매인 자격을 갖고 매일 산지에서 직매입해 메뉴가 그날그날 바뀝니다. 구글과 타베로그 차이가 0.48로 건전한, 현지·관광객 모두에게 통하는 집. 금·토 14:00~23:30, 부정기휴무라 가기 전 전화로 확인하세요. 전석 금연. 카드만 되고 전자머니·QR은 안 됩니다. 오픈 전부터 줄이 생깁니다."},
+
+    {ko:"이소마루 수산 도톤보리점", ja:"磯丸水産 道頓堀店", area:"오사카", place:"도톤보리 · 난바역 도보 5분", cat:"이자카야", real:false,
+     tab:"3.06", tabN:"64", goo:"3.8", gooN:"957",
+     award:"",
+     resv:"불필요", resvNote:"주말 저녁은 권장", nomi:"¥3,280 / ¥3,800 / ¥4,800 코스 · 2시간",
+     menu:"하마야키 조개·새우 직화구이 · 게장 등딱지 구이 · 사시미 모듬", price:"¥3,300~4,800",
+     note:"평범한 저가 24시간 체인입니다. 점수를 보고 가는 곳이 아니라 <b>새벽에 배고플 때 가는 곳</b>. 한국어 메뉴판이 확실히 있는 유일한 집이고 연중무휴 24시간이라 계획이 틀어져도 갈 수 있습니다. 100석, 전석 금연(흡연실 별도), 결제수단 전부 가능, 무료 Wi-Fi. 현지 리뷰에 \"인바운드 손님만 있다\"는 지적이 반복됩니다."},
+
+    {ko:"타코야키 도라쿠 와나카 센니치마에 본점", ja:"たこ焼道楽 わなか 千日前本店", area:"오사카", place:"센니치마에 · 난바역 도보 4~6분", cat:"로컬푸드", real:true,
+     tab:"3.49", tabN:"3,194", goo:"4.3", gooN:"4,358",
+     award:"",
+     resv:"불가", resvNote:"", nomi:"",
+     menu:"타코야키 8개 ¥600 / 12개 ¥850 · 타코센 ¥200 · 완코다코 ¥700(본점 한정)", price:"¥600~1,000",
+     note:"<b>타코야키는 장르 특성상 3.5를 넘는 집이 거의 없어서 3.49면 최상위급</b>입니다. 리뷰 3,194건의 두께도 확실합니다. 토·일 09:30~21:00이라 개점 직후가 대기 없이 가장 좋습니다. 주말 웨이팅 30~60분. <b>현금 또는 PayPay만</b>. 간이 짜다는 평이 일부 있습니다. 표시 가격은 2022년 기준이라 올랐을 수 있습니다."},
+
+    {ko:"네기야키 오코노미야키 후쿠타로 본점", ja:"ねぎ焼 お好み焼 福太郎 本店", area:"오사카", place:"센니치마에 · 난바역 도보 5분", cat:"로컬푸드", real:true,
+     tab:"3.72", tabN:"2,759", goo:"4.2", gooN:"3,675",
+     award:"오코노미야키 백명점 2018·2019·2022·2023·2024·2025 (6회)",
+     resv:"불가", resvNote:"현장 대기표(기명제) · 온라인 예약은 무효 처리", nomi:"",
+     menu:"돼지 네기야키 ¥1,280 · 떡치즈 네기야키 ¥1,380 · 부타타마 ¥1,080", price:"¥2,000~3,000",
+     note:"오코노미야키·네기야키 카테고리 최상위. 백명점 6회에 타베로그 3.72입니다. 토·일은 12:00부터 열어 점심에도 갈 수 있습니다. <b>도착하면 먼저 이름을 적어야 합니다</b> — 모르고 그냥 기다리다 헛걸음하는 사례가 있습니다. 주말 20~30분 대기. 전석 금연, 결제수단 전부 가능. 매장 안에 연기 냄새가 좀 뱁니다."},
+
+    {ko:"오코노미야키 미즈노", ja:"お好み焼き 美津の", area:"오사카", place:"도톤보리 · 난바역 도보 5분", cat:"로컬푸드", real:true,
+     tab:"3.56", tabN:"1,738", goo:"3.8", gooN:"3,075",
+     award:"오코노미야키 백명점 2018·2019·2022·2024·2025 (5회)",
+     resv:"불가", resvNote:"", nomi:"",
+     menu:"야마이모야키(밀가루 0%) ¥1,680 · 미즈노야키 ¥1,450 · 네기야키 ¥1,045~", price:"¥2,000~3,000",
+     note:"1945년 창업, 백명점 5회. <b>이 집만 구글(3.8)이 타베로그(3.56)보다 낮습니다</b> — 일본인 평가가 외국인 평가보다 높은, 관광지 함정과 정반대 패턴입니다. 11:00~22:00 무휴. 38석이라 회전이 느려 30분~1시간 대기가 잦습니다. ¥3,000 미만은 현금만. 전석 금연. \"양이 적다\", \"응대가 서두른다\"는 지적이 있습니다."},
+
+    {ko:"야에카츠", ja:"八重勝", area:"오사카", place:"신세카이 잔잔요코초 · 도부츠엔마에역 도보 2분", cat:"로컬푸드", real:true,
+     tab:"3.50", tabN:"2,061", goo:"4.0", gooN:"약 3,900",
+     award:"1947년 창업",
+     resv:"불가", resvNote:"100% 줄서기", nomi:"",
+     menu:"쿠시카츠 3본 약 ¥450 · 도테야키(소힘줄 백된장 조림)", price:"¥2,000~3,000",
+     note:"쿠시카츠는 여기 한 곳이면 충분합니다. 잔잔요코초에서 줄이 가장 긴 집이고 타베로그 3.50에 리뷰 2,061건. 난바에서 미도스지선 두 정거장. 10:30~20:30, 목요일 휴무 — 20:30 마감이라 19시대에는 도착해야 합니다. <b>현금만</b>. 49석 전부 카운터. 1~2시간 대기와 무뚝뚝한 접객은 각오하세요. 매장 안에서 휴대폰을 쓸 수 없습니다."},
+
+    {ko:"간소 쿠시카츠 다루마 도톤보리점", ja:"元祖串かつ だるま 道頓堀店", area:"오사카", place:"도톤보리 · 거대 요리사 간판", cat:"로컬푸드", real:false,
+     tab:"3.31", tabN:"434", goo:"3.8", gooN:"2,333",
+     award:"",
+     resv:"불가", resvNote:"평일 18시까지만 예약 · 주말은 워크인", nomi:"",
+     menu:"원조 쿠시카츠 ¥154 · 도톤보리 세트 ¥1,683 · 도테야키 ¥440", price:"¥2,000~3,000",
+     note:"실존하는 오사카 브랜드이긴 하지만 3.31은 평범 구간입니다. <b>쿠시카츠 한 끼는 야에카츠(3.50)에 쓰는 게 낫습니다.</b> 그래도 야에카츠 줄이 감당이 안 되거나 현금이 없을 때의 대안으로는 유효합니다 — 140석이라 회전이 빠르고 카드·QR이 다 됩니다. 토·일 10:30~22:30, 전석 금연. \"가격 대비 특별함이 없다\"는 지적이 반복됩니다."},
+
+    {ko:"야키니쿠 기탄 호젠지", ja:"焼肉 㐂舌 法善寺", area:"오사카", place:"호젠지요코초 · 난바역 도보 5분", cat:"한 끼", real:true,
+     tab:"3.56", tabN:"621", goo:"4.0", gooN:"597",
+     award:"",
+     resv:"필수", resvNote:"타베로그 영문·한국어 페이지에서 전화 없이 예약", nomi:"",
+     menu:"기념일 코스 11품 ¥9,900 (샴페인 1잔 포함) · 호젠지 코스 12품 ¥11,000", price:"¥10,000~13,000 (+서비스료 5%)",
+     note:"<b>10/31 생일 저녁으로 잡은 곳.</b> 전석이 완전 개인룸이고 2인실도 있어 핼러윈 인파와 완전히 분리됩니다. 미야자키 기리시마규·마쓰자카규 숙성육. 타베로그 3.56에 구글 4.0으로 괴리도 건전합니다. 17:00~23:00, 부정기휴무. 전면 금연, 카드 가능(전자머니 불가), 영어 메뉴판 있음. 런치 가격에 대한 불만 후기가 있으니 디너로 가세요."},
+
+    {ko:"스시 아마토 우라난바", ja:"鮨あまと 裏難波", area:"오사카", place:"니혼바시 · 난바역 도보 7분", cat:"한 끼", real:true,
+     tab:"3.51", tabN:"262", goo:"4.8", gooN:"451",
+     award:"2025년 7월 오픈 · 14개월 만에 리뷰 262건",
+     resv:"필수", resvNote:"가게가 해외 고객은 타베로그 영문 페이지 예약을 지정", nomi:"¥13,000 엑제큐티브 코스 · 110분 · 18:00 시작",
+     menu:"오마카세 니기리 15관 ¥6,800 · 天翔【極】 ¥8,300 (우라난바 한정)", price:"¥9,100~14,000 (+서비스료 10%)",
+     note:"타베로그 3.51로 기준선은 넘었고 축적 속도도 빠릅니다. 다만 <b>구글 4.8과 타베로그 3.51의 차이가 1.29로 이 목록에서 두 번째로 큽니다.</b> 인바운드 마케팅이 강한 신생 스시야의 전형적 패턴이니 \"미쉐린급\"을 기대하지 말고 가성비 오마카세로 접근하세요. 16:00~23:00(L.O. 22:30), 정기휴무 없음 — USJ에서 늦게 돌아와도 갈 수 있습니다. 일본어 사이트에서 해외번호로 예약하면 취소될 수 있습니다."},
+
+    {ko:"텐푸라 다이키치 난바점", ja:"天ぷら 大吉 なんば店", area:"오사카", place:"난바", cat:"한 끼", real:true,
+     tab:"3.49", tabN:"1,115", goo:"", gooN:"",
+     award:"난바 텐푸라 랭킹 2위",
+     resv:"권장", resvNote:"", nomi:"",
+     menu:"텐푸라 정식 · 바지락 된장국(명물)", price:"디너 ¥2,000~3,000 / 런치 ~¥1,000",
+     note:"<b>빠진 천월(天ぷら 天月)의 가성비 대체 후보.</b> 천월보다 점수가 0.25 높고 리뷰는 17배(1,115건 vs 66건)인데 가격은 훨씬 쌉니다. 런치가 특히 이득이라는 평이 많습니다. 세부 영업시간과 메뉴 가격은 현지에서 확인하세요."},
+
+    {ko:"텐푸라 안도", ja:"天麩羅 安藤", area:"오사카", place:"소에몬초 · 닛폰바시역 도보 4분", cat:"한 끼", real:true,
+     tab:"3.73", tabN:"181", goo:"", gooN:"",
+     award:"텐푸라 백명점 2025 · 난바 텐푸라 랭킹 1위",
+     resv:"필수", resvNote:"타베로그 영문·한국어 페이지 · 워크인 불가", nomi:"",
+     menu:"오마카세 텐푸라 코스 20품 ¥22,000 — 사누키 올리브규 필레, 구루마에비, 성게 노리 텐푸라", price:"약 ¥24,200 (서비스료 10% 포함)",
+     note:"<b>이 목록 최고점(3.73)이자 유일한 백명점 텐푸라.</b> 다만 1인 ¥24,000이 넘어 예산을 크게 벗어납니다. \"한 번 제대로\"를 할 생각이 있을 때만. 카운터 8석, 월~토 18:00 시작(17:45 오픈) / 일요일은 12:00·18:00 2부제. 전면 금연. 향수가 강하면 입장이 거절되고 취소수수료가 붙습니다."},
+
+    {ko:"파크사이드 그릴", ja:"パークサイド・グリル", area:"USJ", place:"USJ 뉴욕 에리어", cat:"한 끼", real:false,
+     tab:"3.48", tabN:"357", goo:"4.1", gooN:"447",
+     award:"",
+     resv:"필수", resvNote:"방문 1개월 전 11:00(일본시간)부터 TableCheck 예약", nomi:"",
+     menu:"에이지드 앵거스 스테이크 ¥4,500(250g) · 프리미엄 코스 ¥6,000 · 갈릭라이스 ¥3,500", price:"런치 ¥2,800~3,500 / 디너 ¥4,000~6,000",
+     note:"<b>테마파크 식당은 보통 3.0 전후인데 3.48이면 예외적으로 높습니다.</b> USJ 안에서 사전 웹예약이 되는 단 두 곳 중 하나(다른 하나는 일식 SAIDO). 우선안내는 테이블 확정이 아니라 지정된 1시간대에 도착하면 줄 앞으로 안내해주는 제도이고, 그 시간대에 가지 않으면 자동 취소됩니다. 기념일 케이크는 72시간 전까지 사전주문 가능. 테마파크 프리미엄 가격은 감안하세요."},
+
+    {ko:"세 자루 빗자루", ja:"三本の箒", area:"USJ", place:"USJ 위저딩 월드", cat:"로컬푸드", real:false,
+     tab:"3.48", tabN:"597", goo:"4.0", gooN:"673",
+     award:"",
+     resv:"불필요", resvNote:"퀵서비스 · 모바일 오더 가능", nomi:"",
+     menu:"피시 앤 칩스 ¥2,600 · 비프 선데이 로스트 ¥3,500 · 버터비어 ¥900", price:"¥2,600~3,500",
+     note:"이 집의 값어치는 음식보다 <b>호그와트 대연회장을 재현한 공간</b>입니다. 그 값으로 치면 충분합니다. 점심 피크(11:30~14:00) 대기가 최대 1시간이라 모바일 오더를 쓰세요. 해리포터 에리어 입장에 정리권이 필요한지는 당일 혼잡도에 따라 달라지니 USJ 공식 앱을 확인하세요."}
+  ];
+
+  var listEl = document.getElementById('rlist');
+  var emptyEl = document.getElementById('rempty');
+  var state = { area:'all', real:false, nomi:false, resv:false };
+
+  function esc(s){
+    return String(s).replace(/[&<>"]/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];
+    });
+  }
+  function catTag(c){
+    if(c === '이자카야') return 'ai';
+    if(c === '한 끼') return 'kaki';
+    return 'matcha';
+  }
+
+  function render(){
+    var rows = R.filter(function(r){
+      if(state.area !== 'all' && r.area !== state.area) return false;
+      if(state.real && !r.real) return false;
+      if(state.nomi && !r.nomi) return false;
+      if(state.resv && !(r.resv === '필수' || r.resv === '권장')) return false;
+      return true;
+    });
+
+    emptyEl.hidden = rows.length > 0;
+
+    listEl.innerHTML = rows.map(function(r){
+      var q = encodeURIComponent(r.ja);
+      return '<article class="card r">' +
+        '<div class="tagrow" style="margin:0 0 9px">' +
+          (r.real ? '<span class="tag real">\u2605 \uCC50\uB9DB\uC9D1</span>' : '<span class="tag">\uAD00\uAD11\uC9C0 \uBB34\uB09C</span>') +
+          '<span class="tag ' + catTag(r.cat) + '">' + esc(r.cat) + '</span>' +
+          '<span class="tag' + (r.resv === '필수' ? ' kaki' : '') + '">예약 ' + esc(r.resv) + '</span>' +
+          (r.nomi ? '<span class="tag matcha">노미호다이 ○</span>' : '') +
+        '</div>' +
+        '<div class="rname">' + esc(r.ko) + '</div>' +
+        '<div class="rja">' + esc(r.ja) + '</div>' +
+        '<div class="rmeta">' + esc(r.area) + ' · ' + esc(r.place) + '</div>' +
+        '<div class="ratings">' +
+          '<span>\uD0C0\uBCA0\uB85C\uADF8 <b>' + esc(r.tab) + '</b><i>(' + esc(r.tabN) + ')</i></span>' +
+          (r.goo ? '<span>\uAD6C\uAE00 <b>' + esc(r.goo) + '</b><i>(' + esc(r.gooN) + ')</i></span>' : '') +
+        '</div>' +
+        (r.award ? '<div class="rmeta" style="margin-top:7px;color:var(--matcha)">' + esc(r.award) + '</div>' : '') +
+        '<dl class="rkv">' +
+          '<dt>메뉴</dt><dd>' + esc(r.menu) + '</dd>' +
+          '<dt>1인</dt><dd class="price">' + esc(r.price) + '</dd>' +
+          (r.nomi ? '<dt>노미호다이</dt><dd>' + esc(r.nomi) + '</dd>' : '') +
+          (r.resvNote ? '<dt>예약</dt><dd>' + esc(r.resvNote) + '</dd>' : '') +
+        '</dl>' +
+        '<p class="note">' + r.note + '</p>' +
+        '<div class="foot">' +
+          '<a href="https://www.google.com/maps/search/?api=1&amp;query=' + q + '" target="_blank" rel="noopener">구글맵 →</a>' +
+          '<a href="https://tabelog.com/kr/rstLst/?sk=' + q + '" target="_blank" rel="noopener">타베로그 →</a>' +
+        '</div>' +
+      '</article>';
+    }).join('');
+  }
+
+  function syncChips(){
+    document.querySelectorAll('.chip[data-f="area"]').forEach(function(b){
+      b.setAttribute('aria-pressed', String(b.dataset.v === state.area));
+    });
+    document.getElementById('f-real').setAttribute('aria-pressed', String(state.real));
+    document.getElementById('f-nomi').setAttribute('aria-pressed', String(state.nomi));
+    document.getElementById('f-resv').setAttribute('aria-pressed', String(state.resv));
+  }
+
+  document.querySelectorAll('.chip').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var f = btn.dataset.f;
+      if(f === 'area') state.area = btn.dataset.v;
+      else state[f] = !state[f];
+      syncChips();
+      try{ localStorage.setItem('kansai-filter-v2', JSON.stringify(state)); }catch(e){}
+      render();
+    });
+  });
+
+  try{
+    var saved = JSON.parse(localStorage.getItem('kansai-filter-v2') || 'null');
+    if(saved && typeof saved === 'object'){
+      state.area = saved.area || 'all';
+      state.real = !!saved.real;
+      state.nomi = !!saved.nomi;
+      state.resv = !!saved.resv;
+      syncChips();
+    }
+  }catch(e){}
+
+  render();
+})();
+</script>
+
+</body>
+</html>
